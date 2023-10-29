@@ -1,0 +1,16 @@
+Index: src/main/readme
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/readme b/src/main/readme
+new file mode 100644
+--- /dev/null	(date 1698597972304)
++++ b/src/main/readme	(date 1698597972304)
+@@ -0,0 +1,5 @@
++Предложения по улучшению:
++Колонка original_language_id - имеет данные Null, ее лучше удалить.
++Колонка rating - лучше иметь данные без дефиза(NC-17,PG-13), пришлось создавать дополнительный конвектор.
++Если бы энтити имели одинаковый тип - можно было их объединить, для простоты написания кода.
++Колонка special_features - хранить в таком виде информацию не стоит, это усложняет выборку.
+\ No newline at end of file
